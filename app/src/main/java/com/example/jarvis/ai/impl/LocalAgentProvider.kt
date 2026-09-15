@@ -42,15 +42,7 @@ class LocalAgentProvider : AIProvider {
             }
         }
 
-        // 3. Time & Date
-        if (text.contains("time") || text.contains("date") || text.contains("what day") || text.contains("what is today")) {
-            return AIResponse(
-                content = "Checking chronometer...",
-                toolCalls = listOf(ToolCall("get_current_time", emptyMap()))
-            )
-        }
-
-        // 4. Timer
+        // 3. Timer
         if (text.contains("timer")) {
             val secRegex = Regex("""(\d+)\s*(?:second|sec)""")
             val minRegex = Regex("""(\d+)\s*(?:minute|min)""")
@@ -69,6 +61,14 @@ class LocalAgentProvider : AIProvider {
             return AIResponse(
                 content = "Configuring timer...",
                 toolCalls = listOf(ToolCall("set_timer", mapOf("duration_seconds" to totalSeconds)))
+            )
+        }
+
+        // 4. Time & Date
+        if ((text.contains("time") && !text.contains("timer")) || text.contains("date") || text.contains("what day") || text.contains("what is today")) {
+            return AIResponse(
+                content = "Checking chronometer...",
+                toolCalls = listOf(ToolCall("get_current_time", emptyMap()))
             )
         }
 

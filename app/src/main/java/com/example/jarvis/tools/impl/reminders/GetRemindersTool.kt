@@ -1,12 +1,12 @@
 package com.example.jarvis.tools.impl.reminders
 
 import android.content.Context
-import com.example.jarvis.data.JarvisRepository
+import com.example.jarvis.data.TaskRepository
 import com.example.jarvis.tools.Tool
 import com.example.jarvis.tools.models.RiskLevel
 import com.example.jarvis.tools.models.ToolResult
 
-class GetRemindersTool(private val repository: JarvisRepository) : Tool {
+class GetRemindersTool(private val repository: TaskRepository) : Tool {
     override val name: String = "get_reminders"
     override val description: String = "Retrieves current active reminders and to-do tasks."
     override val riskLevel: RiskLevel = RiskLevel.SAFE

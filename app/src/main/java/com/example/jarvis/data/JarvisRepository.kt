@@ -8,7 +8,7 @@ import com.example.jarvis.data.model.MemoryItem
 import com.example.jarvis.data.preferences.JarvisPreferences
 import com.example.jarvis.security.SecureStorage
 
-class JarvisRepository(context: Context) {
+class JarvisRepository(context: Context) : TaskRepository {
     val dbHelper = JarvisDbHelper(context)
     val preferences = JarvisPreferences(context)
     val secureStorage = SecureStorage(context)

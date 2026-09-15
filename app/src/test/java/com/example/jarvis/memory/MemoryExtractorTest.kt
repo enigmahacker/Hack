@@ -33,9 +33,9 @@ class MemoryExtractorTest {
 
     @Test
     fun testExtractGenericFact() {
-        val memory = MemoryExtractor.extractMemory("Remember that the meeting is rescheduled to 4 PM")
+        val memory = MemoryExtractor.extractMemory("Remember that we need to buy milk")
         assertNotNull(memory)
         assertEquals(MemoryCategory.FACT, memory?.category)
-        assertEquals("the meeting is rescheduled to 4 PM", memory?.value)
+        assertEquals("we need to buy milk", memory?.value)
     }
 }

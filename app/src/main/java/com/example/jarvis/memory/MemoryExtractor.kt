@@ -7,9 +7,9 @@ import java.util.Locale
 object MemoryExtractor {
 
     private val REMEMBER_PATTERNS = listOf(
-        Regex("""(?i)remember\s+that\s+my\s+([a-zA-Z0-9_\s]+?)\s+(?:is|called)\s+(.+)"""),
-        Regex("""(?i)remember\s+that\s+([a-zA-Z0-9_\s]+?)\s+(?:is|called)\s+(.+)"""),
-        Regex("""(?i)remember\s+([a-zA-Z0-9_\s]+?)\s+(?:is|called)\s+(.+)"""),
+        Regex("""(?i)remember\s+that\s+my\s+([a-zA-Z0-9_\s]+?)\s+(?:is\s+called|is\s+named|is|called|named)\s+(.+)"""),
+        Regex("""(?i)remember\s+that\s+([a-zA-Z0-9_\s]+?)\s+(?:is\s+called|is\s+named|is|called|named)\s+(.+)"""),
+        Regex("""(?i)remember\s+([a-zA-Z0-9_\s]+?)\s+(?:is\s+called|is\s+named|is|called|named)\s+(.+)"""),
         Regex("""(?i)remember\s+that\s+(.+)"""),
         Regex("""(?i)remember\s+(.+)""")
     )
