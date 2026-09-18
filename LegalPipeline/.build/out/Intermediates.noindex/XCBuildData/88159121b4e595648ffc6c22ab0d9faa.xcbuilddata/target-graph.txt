@@ -1,0 +1,22 @@
+Target dependency graph (10 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'legal-product' in project 'LegalPipeline'
+Target 'legal-product' in project 'LegalPipeline'
+➜ Explicit dependency on target 'ArgumentParser-product' in project 'swift-argument-parser'
+➜ Explicit dependency on target 'SQLite-product' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SwiftSoup-product' in project 'SwiftSoup'
+Target 'SwiftSoup-product' in project 'SwiftSoup'
+➜ Explicit dependency on target 'SwiftSoup' in project 'SwiftSoup'
+Target 'SwiftSoup' in project 'SwiftSoup' (no dependencies)
+Target 'SQLite-product' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite.swift_SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite.swift_SQLite' in project 'SQLite.swift'
+Target 'SQLite.swift_SQLite' in project 'SQLite.swift' (no dependencies)
+Target 'ArgumentParser-product' in project 'swift-argument-parser'
+➜ Explicit dependency on target 'ArgumentParser' in project 'swift-argument-parser'
+➜ Explicit dependency on target 'ArgumentParserToolInfo' in project 'swift-argument-parser'
+Target 'ArgumentParser' in project 'swift-argument-parser'
+➜ Explicit dependency on target 'ArgumentParserToolInfo' in project 'swift-argument-parser'
+Target 'ArgumentParserToolInfo' in project 'swift-argument-parser' (no dependencies)

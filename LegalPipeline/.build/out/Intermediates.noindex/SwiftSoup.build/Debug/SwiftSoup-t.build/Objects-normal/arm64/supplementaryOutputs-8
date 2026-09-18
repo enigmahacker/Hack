@@ -1,0 +1,30 @@
+{
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/Collector.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Collector.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Collector.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Collector.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Collector.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Collector.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CombiningEvaluator.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CombiningEvaluator.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CombiningEvaluator.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CombiningEvaluator.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CombiningEvaluator.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/Comment.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Comment.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Comment.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Comment.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Comment.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Comment.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/CssSelector.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CssSelector.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CssSelector.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CssSelector.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CssSelector.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CssSelector.swiftdeps"
+  }
+}

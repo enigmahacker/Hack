@@ -1,0 +1,23 @@
+{
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/TextNode.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TextNode.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TextNode.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TextNode.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TextNode.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TextNode.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/Token.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Token.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Token.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Token.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Token.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Token.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TokenQueue.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TokenQueue.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TokenQueue.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TokenQueue.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/TokenQueue.swiftdeps"
+  }
+}

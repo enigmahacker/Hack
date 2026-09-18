@@ -1,0 +1,30 @@
+{
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/ByteSlice.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/ByteSlice.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/ByteSlice.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/ByteSlice.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/ByteSlice.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/ByteSlice.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterExt.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterExt.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterExt.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterExt.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterExt.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterReader.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterReader.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterReader.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterReader.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/CharacterReader.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SwiftSoup/Sources/Cleaner.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Cleaner.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Cleaner.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Cleaner.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Cleaner.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup-t.build/Objects-normal/arm64/Cleaner.swiftdeps"
+  }
+}

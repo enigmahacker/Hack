@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ArgumentParserToolInfo-primary.dia",
+    "emit-module-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ArgumentParserToolInfo-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ArgumentParserToolInfo-primary-emit-module.dia",
+    "pch" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ArgumentParserToolInfo-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ArgumentParserToolInfo-primary.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.dia",
+    "index-unit-output-path" : "/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/swift-argument-parser.build/Debug/ArgumentParserToolInfo-t.build/Objects-normal/arm64/ToolInfo~partial.swiftmodule"
+  }
+}

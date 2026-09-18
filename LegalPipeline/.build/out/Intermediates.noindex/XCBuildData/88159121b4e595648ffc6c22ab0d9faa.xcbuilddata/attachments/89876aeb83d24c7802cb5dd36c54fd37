@@ -1,0 +1,9 @@
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/CLI/LegalCLI.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Config.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Logger.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Models/DocumentManifest.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Models/Types.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/FailureStore.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/ManifestStore.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/Parser.swift
+/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/Storage.swift

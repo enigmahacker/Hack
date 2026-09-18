@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/legal-primary.dia",
+    "emit-module-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/legal-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/legal-primary-emit-module.dia",
+    "pch" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/legal-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/legal-primary.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/CLI/LegalCLI.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/LegalCLI~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Config.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Config~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Logger.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Logger~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Models/DocumentManifest.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/DocumentManifest~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Models/Types.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Types~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/FailureStore.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/FailureStore~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/ManifestStore.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/ManifestStore~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/Parser.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Parser~partial.swiftmodule"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/Sources/LegalPipeline/Services/Storage.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.dia",
+    "index-unit-output-path" : "/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.o",
+    "llvm-bc" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.bc",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage.swiftdeps",
+    "swiftmodule" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/LegalPipeline.build/Debug/legal-p.build/Objects-normal/arm64/Storage~partial.swiftmodule"
+  }
+}

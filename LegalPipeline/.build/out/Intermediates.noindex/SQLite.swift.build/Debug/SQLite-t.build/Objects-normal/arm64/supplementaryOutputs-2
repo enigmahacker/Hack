@@ -1,0 +1,23 @@
+{
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Aggregation.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Aggregation.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Aggregation.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Aggregation.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Aggregation.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Aggregation.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Attach.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Attach.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Attach.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Attach.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Attach.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Attach.swiftdeps"
+  },
+  "/Users/prithviaryam/Hack/LegalPipeline/.build/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Pragmas.swift" : {
+    "const-values" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Pragmas.swiftconstvalues",
+    "dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Pragmas.d",
+    "diagnostics" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Pragmas.dia",
+    "object" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Pragmas.o",
+    "swift-dependencies" : "/Users/prithviaryam/Hack/LegalPipeline/.build/out/Intermediates.noindex/SQLite.swift.build/Debug/SQLite-t.build/Objects-normal/arm64/Connection+Pragmas.swiftdeps"
+  }
+}
