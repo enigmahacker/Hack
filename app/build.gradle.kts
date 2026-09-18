@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
   alias(libs.plugins.android.application)
   alias(libs.plugins.compose.compiler)
@@ -13,6 +16,19 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+
+        val localProps = Properties()
+        val localPropsFile = rootProject.file("local.properties")
+        if (localPropsFile.exists()) {
+            FileInputStream(localPropsFile).use { stream ->
+                localProps.load(stream)
+            }
+        }
+        val fishApiKey = localProps.getProperty("fish.audio.api.key") ?: localProps.getProperty("FISH_AUDIO_API_KEY") ?: ""
+        val fishModelId = localProps.getProperty("fish.audio.model.id") ?: localProps.getProperty("FISH_VOICE_ID") ?: "9a9cf47702da476aa4629e2506d4a857"
+
+        buildConfigField("String", "FISH_AUDIO_API_KEY", "\"$fishApiKey\"")
+        buildConfigField("String", "FISH_AUDIO_MODEL_ID", "\"$fishModelId\"")
     }
 
     buildTypes {
@@ -28,7 +44,7 @@ android {
     buildFeatures {
       compose = true
       aidl = false
-      buildConfig = false
+      buildConfig = true
       shaders = false
     }
 
@@ -36,6 +52,10 @@ android {
       resources {
         excludes += "/META-INF/{AL2.0,LGPL2.1}"
       }
+    }
+
+    testOptions {
+        unitTests.isReturnDefaultValues = true
     }
 }
 

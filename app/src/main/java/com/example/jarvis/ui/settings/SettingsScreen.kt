@@ -24,6 +24,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.GraphicEq
 import androidx.compose.material.icons.filled.Key
 import androidx.compose.material.icons.filled.Memory
 import androidx.compose.material.icons.filled.Mic
@@ -92,6 +93,9 @@ fun SettingsScreen(
     var aiProvider by remember { mutableStateOf(repository.preferences.aiProvider) }
     var geminiKey by remember { mutableStateOf(repository.secureStorage.geminiApiKey) }
     var memoryEnabled by remember { mutableStateOf(repository.preferences.memoryEnabled) }
+    var fishAudioEnabled by remember { mutableStateOf(repository.preferences.fishAudioEnabled) }
+    var fishAudioApiKey by remember { mutableStateOf(repository.secureStorage.fishAudioApiKey) }
+    var fishAudioModelId by remember { mutableStateOf(repository.preferences.fishAudioModelId) }
 
     LazyColumn(
         modifier = Modifier
@@ -131,7 +135,105 @@ fun SettingsScreen(
             }
         }
 
-        // Section 1: Voice & Vocal Resonance
+        // Section 1: Neural Voice (Fish Audio)
+        item {
+            SettingsCard(title = "NEURAL VOICE (FISH AUDIO)", icon = Icons.Default.GraphicEq) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text("Neural Jarvis Voice (Fish Audio)", color = JarvisTextPrimary, fontSize = 14.sp)
+                        Text(
+                            text = if (fishAudioApiKey.isNotBlank()) "API key configured. MCU voice active." else "Enter Fish Audio key for Paul Bettany voice",
+                            color = if (fishAudioApiKey.isNotBlank()) JarvisCyan else JarvisTextSecondary,
+                            fontSize = 12.sp
+                        )
+                    }
+                    Switch(
+                        checked = fishAudioEnabled,
+                        onCheckedChange = {
+                            fishAudioEnabled = it
+                            repository.preferences.fishAudioEnabled = it
+                        },
+                        colors = SwitchDefaults.colors(
+                            checkedThumbColor = JarvisCyan,
+                            checkedTrackColor = JarvisCyan.copy(alpha = 0.5f)
+                        )
+                    )
+                }
+
+                if (fishAudioEnabled) {
+                    Spacer(modifier = Modifier.height(12.dp))
+                    Text(
+                        text = "Fish Audio API Key (Encrypted in Keystore):",
+                        color = JarvisTextSecondary,
+                        fontSize = 12.sp
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    OutlinedTextField(
+                        value = fishAudioApiKey,
+                        onValueChange = {
+                            fishAudioApiKey = it
+                            repository.secureStorage.fishAudioApiKey = it
+                        },
+                        visualTransformation = PasswordVisualTransformation(),
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedTextColor = JarvisTextPrimary,
+                            unfocusedTextColor = JarvisTextPrimary,
+                            focusedBorderColor = JarvisCyan,
+                            unfocusedBorderColor = JarvisSurfaceBorder,
+                            focusedContainerColor = JarvisSurface,
+                            unfocusedContainerColor = JarvisSurface
+                        ),
+                        placeholder = { Text("Paste Fish Audio API Key", color = JarvisTextMuted) }
+                    )
+
+                    Spacer(modifier = Modifier.height(12.dp))
+                    Text(
+                        text = "Jarvis Voice Model / Reference ID:",
+                        color = JarvisTextSecondary,
+                        fontSize = 12.sp
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    OutlinedTextField(
+                        value = fishAudioModelId,
+                        onValueChange = {
+                            fishAudioModelId = it
+                            repository.preferences.fishAudioModelId = it
+                            repository.secureStorage.fishAudioModelId = it
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedTextColor = JarvisTextPrimary,
+                            unfocusedTextColor = JarvisTextPrimary,
+                            focusedBorderColor = JarvisCyan,
+                            unfocusedBorderColor = JarvisSurfaceBorder,
+                            focusedContainerColor = JarvisSurface,
+                            unfocusedContainerColor = JarvisSurface
+                        ),
+                        placeholder = { Text("e.g. 9a9cf47702da476aa4629e2506d4a857", color = JarvisTextMuted) }
+                    )
+
+                    Spacer(modifier = Modifier.height(12.dp))
+                    Button(
+                        onClick = {
+                            ttsEngine.speak("Fish Audio neural voice integration confirmed. All vocal parameters aligned, sir.")
+                        },
+                        colors = ButtonDefaults.buttonColors(containerColor = JarvisCyan.copy(alpha = 0.2f)),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .border(1.dp, JarvisCyan, RoundedCornerShape(8.dp))
+                    ) {
+                        Text("Test Neural Jarvis Voice", color = JarvisCyan)
+                    }
+                }
+            }
+        }
+
+        // Section 2: Voice & Vocal Resonance
         item {
             SettingsCard(title = "VOCAL SYNTHESIS", icon = Icons.Default.VolumeUp) {
                 Text(

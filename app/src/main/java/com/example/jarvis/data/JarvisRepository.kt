@@ -22,8 +22,8 @@ class JarvisRepository(context: Context) : TaskRepository {
     suspend fun getMessages(limit: Int = 50): List<ChatMessage> = dbHelper.getRecentMessages(limit)
     suspend fun clearMessages(): Int = dbHelper.clearMessages()
 
-    suspend fun addTask(task: JarvisTask): Long = dbHelper.insertTask(task)
-    suspend fun getTasks(): List<JarvisTask> = dbHelper.getAllTasks()
-    suspend fun completeTask(query: String): Boolean = dbHelper.completeTask(query)
-    suspend fun deleteTask(id: Long): Int = dbHelper.deleteTask(id)
+    override suspend fun addTask(task: JarvisTask): Long = dbHelper.insertTask(task)
+    override suspend fun getTasks(): List<JarvisTask> = dbHelper.getAllTasks()
+    override suspend fun completeTask(query: String): Boolean = dbHelper.completeTask(query)
+    override suspend fun deleteTask(id: Long): Int = dbHelper.deleteTask(id)
 }

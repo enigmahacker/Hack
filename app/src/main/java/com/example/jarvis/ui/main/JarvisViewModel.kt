@@ -18,6 +18,8 @@ import com.example.jarvis.voice.TextToSpeechEngine
 import com.example.jarvis.voice.WakeWordDetector
 import com.example.jarvis.voice.impl.AndroidSpeechRecognizer
 import com.example.jarvis.voice.impl.AndroidTextToSpeech
+import com.example.jarvis.voice.impl.CompositeTextToSpeech
+import com.example.jarvis.voice.impl.FishAudioTextToSpeech
 import com.example.jarvis.voice.impl.KeywordWakeWordDetector
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -33,10 +35,23 @@ class JarvisViewModel(application: Application) : AndroidViewModel(application) 
     val agentEngine = AgentEngine(repository, toolRegistry)
 
     val feedbackManager = AudioFeedbackManager(application)
-    val ttsEngine: TextToSpeechEngine = AndroidTextToSpeech(
+    private val androidTts = AndroidTextToSpeech(
         application,
         speechRate = repository.preferences.speechRate,
         speechPitch = repository.preferences.speechPitch
+    )
+    private val fishAudioTts = FishAudioTextToSpeech(
+        application,
+        apiKeyProvider = { repository.secureStorage.fishAudioApiKey },
+        modelIdProvider = { repository.preferences.fishAudioModelId },
+        speechRate = repository.preferences.speechRate,
+        speechPitch = repository.preferences.speechPitch
+    )
+    val ttsEngine: TextToSpeechEngine = CompositeTextToSpeech(
+        fishAudioTts = fishAudioTts,
+        androidTts = androidTts,
+        isFishAudioEnabled = { repository.preferences.fishAudioEnabled },
+        hasFishAudioKey = { repository.secureStorage.fishAudioApiKey.isNotBlank() }
     )
     val speechRecognizer: SpeechRecognizerEngine = AndroidSpeechRecognizer(application)
     val wakeWordDetector: WakeWordDetector = KeywordWakeWordDetector(

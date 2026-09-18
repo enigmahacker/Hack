@@ -1,7 +1,7 @@
 package com.example.jarvis.tools
 
 import android.content.Context
-import com.example.jarvis.data.JarvisRepository
+import com.example.jarvis.data.TaskRepository
 import com.example.jarvis.tools.impl.apps.LaunchUrlTool
 import com.example.jarvis.tools.impl.apps.OpenAppTool
 import com.example.jarvis.tools.impl.communication.CallContactTool
@@ -22,7 +22,7 @@ import com.example.jarvis.tools.impl.time.SetTimerTool
 import com.example.jarvis.tools.impl.web.WebSearchTool
 import com.example.jarvis.tools.models.ToolResult
 
-class ToolRegistry(repository: JarvisRepository) {
+class ToolRegistry(repository: TaskRepository) {
     private val toolsMap = mutableMapOf<String, Tool>()
 
     init {

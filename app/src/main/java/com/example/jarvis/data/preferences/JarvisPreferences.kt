@@ -17,6 +17,8 @@ class JarvisPreferences(context: Context) {
         private const val KEY_AI_MODEL = "ai_model"
         private const val KEY_MEMORY_ENABLED = "memory_enabled"
         private const val KEY_BARGE_IN_ENABLED = "barge_in_enabled"
+        private const val KEY_FISH_AUDIO_ENABLED = "fish_audio_enabled"
+        private const val KEY_FISH_AUDIO_MODEL_ID = "fish_audio_model_id"
     }
 
     var wakeWordEnabled: Boolean
@@ -50,4 +52,12 @@ class JarvisPreferences(context: Context) {
     var bargeInEnabled: Boolean
         get() = prefs.getBoolean(KEY_BARGE_IN_ENABLED, true)
         set(value) = prefs.edit().putBoolean(KEY_BARGE_IN_ENABLED, value).apply()
+
+    var fishAudioEnabled: Boolean
+        get() = prefs.getBoolean(KEY_FISH_AUDIO_ENABLED, true)
+        set(value) = prefs.edit().putBoolean(KEY_FISH_AUDIO_ENABLED, value).apply()
+
+    var fishAudioModelId: String
+        get() = prefs.getString(KEY_FISH_AUDIO_MODEL_ID, "9a9cf47702da476aa4629e2506d4a857") ?: "9a9cf47702da476aa4629e2506d4a857"
+        set(value) = prefs.edit().putString(KEY_FISH_AUDIO_MODEL_ID, value).apply()
 }

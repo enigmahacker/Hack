@@ -1,12 +1,12 @@
 package com.example.jarvis.tools.impl.reminders
 
 import android.content.Context
-import com.example.jarvis.data.JarvisRepository
+import com.example.jarvis.data.TaskRepository
 import com.example.jarvis.tools.Tool
 import com.example.jarvis.tools.models.RiskLevel
 import com.example.jarvis.tools.models.ToolResult
 
-class CompleteReminderTool(private val repository: JarvisRepository) : Tool {
+class CompleteReminderTool(private val repository: TaskRepository) : Tool {
     override val name: String = "complete_reminder"
     override val description: String = "Marks a reminder or to-do task as completed by title keyword or ID."
     override val riskLevel: RiskLevel = RiskLevel.SAFE
